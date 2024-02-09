@@ -9,10 +9,12 @@ export default{
 </script>
 
 <template>
-    <div class="card">
-        <img :src="img" :alt="title">
-        <!-- <img :src="newimg" :alt="title"> -->
+    <div class="main-container">
+        <div class="card">
+            <img :src="img" :alt="title">
+            <!-- <img :src="newimg" :alt="title"> -->
         
+        </div>
     </div>
 </template>
 
