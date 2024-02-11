@@ -120,11 +120,14 @@ export default{
 </script>
 
 <template>
-  
-  <Appcard v-for="immagine in images" 
-    :img="generateURL('../assets/img/'+ immagine.frontImage)"
-    ></Appcard>
-    
+  <div class="main-container">
+       
+    <Appcard v-for="immagine in images" 
+      :img="generateURL('../assets/img/'+ immagine.frontImage)"
+      
+      ></Appcard>
+      
+    </div>
     <!-- :newimg="generateURL('../assets/img/'+ immagine.backImage)" -->
 </template>
 

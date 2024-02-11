@@ -9,13 +9,15 @@ export default{
 </script>
 
 <template>
-    <div class="main-container">
-        <div class="card">
-            <img :src="img" :alt="title">
-            <!-- <img :src="newimg" :alt="title"> -->
-        
-        </div>
+    
+    <div class="card">
+        <img :src="img" :alt="title">
+        <!-- <img :src="newimg" :alt="title"> -->
+        <p class="heart">&hearts;</p>
+        <p class="sale">-50%</p>
+        <p class="sostenibilità">Sostenibilità</p>
     </div>
+     
 </template>
 
 <style lang="scss" scoped>
