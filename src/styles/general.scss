@@ -72,7 +72,7 @@ nav{
 .main-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px 235px;
+    gap: 75px 235px;
     justify-content: center;
     margin-top: 50px;
     
@@ -93,6 +93,7 @@ nav{
                 min-width: 98px;
                 width: 298px;
             }
+            
              
                 .heart {
                 position: absolute;
@@ -139,5 +140,19 @@ nav{
               }
             
 }
+            .card .img-none {
+                display: none;
+                margin: 0 auto;
+                width: 100%;
+            }
+            
+            .card:hover .img-none {
+                display: block;
+            }
+            
+            .card:hover img {
+                display: none;
+            
+            }
     
 }
